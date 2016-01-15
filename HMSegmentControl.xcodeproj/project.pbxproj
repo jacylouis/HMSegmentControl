@@ -13,6 +13,7 @@
 		04C9DDA41C48C56400A4C16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DDA21C48C56400A4C16B /* Main.storyboard */; };
 		04C9DDA61C48C56400A4C16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DDA51C48C56400A4C16B /* Assets.xcassets */; };
 		04C9DDA91C48C56400A4C16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DDA71C48C56400A4C16B /* LaunchScreen.storyboard */; };
+		04C9DDB21C48C58100A4C16B /* HMSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DDB11C48C58100A4C16B /* HMSegmentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04C9DDA51C48C56400A4C16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C9DDA81C48C56400A4C16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C9DDAA1C48C56400A4C16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C9DDB01C48C58100A4C16B /* HMSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentControl.h; sourceTree = "<group>"; };
+		04C9DDB11C48C58100A4C16B /* HMSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		04C9DD981C48C56400A4C16B /* HMSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				04C9DDB01C48C58100A4C16B /* HMSegmentControl.h */,
+				04C9DDB11C48C58100A4C16B /* HMSegmentControl.m */,
 				04C9DD9C1C48C56400A4C16B /* AppDelegate.h */,
 				04C9DD9D1C48C56400A4C16B /* AppDelegate.m */,
 				04C9DD9F1C48C56400A4C16B /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				04C9DDA11C48C56400A4C16B /* ViewController.m in Sources */,
 				04C9DD9E1C48C56400A4C16B /* AppDelegate.m in Sources */,
+				04C9DDB21C48C58100A4C16B /* HMSegmentControl.m in Sources */,
 				04C9DD9B1C48C56400A4C16B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
